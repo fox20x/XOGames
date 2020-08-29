@@ -55,6 +55,9 @@ const check = () =>{
 			result = 'O';
 			prepareResult(result);
 			win_i(result);
+		}else if( move == 9){
+			result = 'XO'
+			prepareResult(result);
 		}
 	}
 }
